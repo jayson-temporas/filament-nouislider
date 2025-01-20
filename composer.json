@@ -1,0 +1,32 @@
+{
+    "name": "jaysontemporas/filament-nouislider",
+    "description": "A Filament component for seamlessly integrating NoUiSlider, a highly customizable and lightweight slider library.",
+    "keywords": ["laravel", "filament", "nouislider", "slider", "component"],
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "JaysonTemporas\\FilamentNoUiSlider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jayson Temporas",
+            "email": "jayson.temporas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "filament/support": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JaysonTemporas\\FilamentNoUiSlider\\FilamentNoUiSliderServiceProvider"
+            ]
+        }
+    },
+    "support": {
+        "issues": "https://github.com/jaysontemporas/filament-nouislider/issues",
+        "source": "https://github.com/jaysontemporas/filament-nouislider"
+    }
+}

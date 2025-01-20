@@ -1,0 +1,36 @@
+
+.filament-forms-nouislider-component-slider.noUi-target {
+    border: 1px solid #D6DADC;
+    box-shadow: none;
+}
+
+.dark .noUi-target {
+    border: 1px solid #282A35;
+}
+
+.bottom-tooltip .noUi-origin .noUi-tooltip {
+    top: 40px !important;
+    bottom: initial !important;
+}
+
+.noUi-vertical .noUi-origin .noUi-tooltip {
+    bottom: -8% !important;
+    right: 40px !important;
+
+}
+
+.noUi-tooltip {
+    font-size: 12px !important;
+}
+
+.noUi-vertical {
+    margin: 0 auto !important;
+}
+
+.noUi-horizontal .noUi-pips {
+    font-size: 12px !important;
+}
+
+.noUi-horizontal .noUi-marker-large {
+    height: 12px !important;
+}
